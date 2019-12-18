@@ -1,0 +1,8 @@
+package com.goomo.persion;
+
+public abstract class Person {
+	public void sppek() {
+		System.out.println("Share your Thoughts!!!");
+	}
+	public abstract void eat();
+}

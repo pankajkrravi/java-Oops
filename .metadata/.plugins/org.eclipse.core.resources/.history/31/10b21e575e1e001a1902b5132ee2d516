@@ -1,0 +1,12 @@
+import com.goomo.Components.Processor;
+
+public class MainClass {
+	public static void main(String[] args) {
+		/*
+		 * Laptop laptop=new Laptop();
+		 * System.out.println(laptop.getProcessor().getBrand());
+		 */
+		Processor graphiccard=new Processor("Intel", "7600u", 7, 5, 4, cashMemory, frequency, minFrequency, maxFrequency)
+		Laptop laptop=new Laptop(screen, processor, ram, hardDrive, graphiccard, opticalDrive, keyBoard);
+}
+}

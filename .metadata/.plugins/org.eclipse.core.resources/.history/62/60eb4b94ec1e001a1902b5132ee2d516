@@ -1,0 +1,26 @@
+package com.goomo;
+
+import java.util.Stack;
+
+public class StackDemo {
+	public static void main(String[] args) {
+
+		Stack<Integer> stkElel = new Stack<Integer>();
+		stkElel.push(1);
+		stkElel.push(2);
+		stkElel.push(3);
+		stkElel.push(4);
+		stkElel.push(5);
+		stkElel.push(6);
+		stkElel.push(7);
+		stkElel.push(8);
+		stkElel.push(9);
+		stkElel.push(10);
+		/*
+		 * for (int i = 0; i < stkElel.size(); i++) { System.out.println(stkElel); }
+		 */
+		for (Integer integer : stkElel) {
+			System.out.println(integer);
+		}
+	}
+}

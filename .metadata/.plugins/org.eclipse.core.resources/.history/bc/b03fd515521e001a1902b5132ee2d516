@@ -1,0 +1,9 @@
+package inheritance;
+
+public class Crocodile extends Reptile {
+
+	public Crocodile() {
+		super();
+	}
+
+}

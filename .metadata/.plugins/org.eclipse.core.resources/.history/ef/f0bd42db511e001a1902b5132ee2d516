@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Crocodile extends Reptile {
+
+	public Crocodile() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

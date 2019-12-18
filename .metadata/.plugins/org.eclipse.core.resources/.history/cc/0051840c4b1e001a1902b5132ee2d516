@@ -1,0 +1,8 @@
+package inheritance;
+
+public class Animal {
+	private float heightInFeet;
+	private float weightInKilos;
+	private String animalType;
+	private String bloodType;
+}

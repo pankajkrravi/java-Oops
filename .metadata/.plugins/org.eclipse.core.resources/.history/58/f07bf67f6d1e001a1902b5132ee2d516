@@ -1,0 +1,10 @@
+package com.goomo;
+
+import com.goomo.phone.Oneplus5;
+
+public class mainclass {
+   public static void main(String[] args) {
+	Oneplus5 oneplus5=new Oneplus5();
+		   oneplus5.processor();	
+}
+}

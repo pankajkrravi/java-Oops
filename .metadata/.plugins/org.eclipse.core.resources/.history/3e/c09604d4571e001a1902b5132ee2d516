@@ -1,0 +1,21 @@
+package com.goomo.Components;
+
+public class GraphicCard {
+	private String brand;
+	private String series;
+	private String memory;
+
+	public GraphicCard() {
+		this.brand = Nvedia;
+		this.series = series;
+		this.memory = memory;
+	}
+
+	public GraphicCard(String brand, String series, String memory) {
+		super();
+		this.brand = brand;
+		this.series = series;
+		this.memory = memory;
+	}
+
+}

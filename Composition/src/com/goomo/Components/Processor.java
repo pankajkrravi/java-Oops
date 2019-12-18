@@ -1,0 +1,86 @@
+package com.goomo.Components;
+
+public class Processor {
+	private String brand;
+	private String series;
+	private int generation;
+	private int cores;
+	private int threads;
+	private String cashMemory;
+	private String frequency;
+	private String minFrequency;
+	private String maxFrequency;
+
+	public Processor() {
+		this.brand = "intel";
+		this.series = "7200u";
+		this.generation = 7;
+		this.cores = 2;
+		this.threads = 5;
+		this.cashMemory = "4 MB";
+		this.frequency = "2.GHz";
+		this.minFrequency = "2.1 GHz";
+		this.maxFrequency = "3.1 GHz";
+	}
+
+	public Processor(String brand, String series, int generation, int cores, int threads, String cashMemory,
+			String frequency, String minFrequency, String maxFrequency) {
+		this.brand = brand;
+		this.series = series;
+		this.generation = generation;
+		this.cores = cores;
+		this.threads = threads;
+		this.cashMemory = cashMemory;
+		this.frequency = frequency;
+		this.minFrequency = minFrequency;
+		this.maxFrequency = maxFrequency;
+	}
+
+	@Override
+	public String toString() {
+		return "Processor [brand=" + brand + ", series=" + series + ", generation=" + generation + ", cores=" + cores
+				+ ", threads=" + threads + ", cashMemory=" + cashMemory + ", frequency=" + frequency + ", minFrequency="
+				+ minFrequency + ", maxFrequency=" + maxFrequency + "]";
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public String getSeries() {
+		return series;
+	}
+
+	public int getGeneration() {
+		return generation;
+	}
+
+	public int getCores() {
+		return cores;
+	}
+
+	public int getThreads() {
+		return threads;
+	}
+
+	public String getCashMemory() {
+		return cashMemory;
+	}
+
+	public String getFrequency() {
+		return frequency;
+	}
+
+	public String getMinFrequency() {
+		return minFrequency;
+	}
+
+	public String getMaxFrequency() {
+		return maxFrequency;
+	}
+
+	public void setFrequency(String frequency) {
+		this.frequency = frequency;
+	}
+
+}

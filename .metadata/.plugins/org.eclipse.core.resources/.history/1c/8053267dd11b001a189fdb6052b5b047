@@ -1,0 +1,6 @@
+package com.goomo.notification.notificationservice.model;
+
+public class SmsUser {
+	private 
+
+}

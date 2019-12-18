@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Eal extends Fish {
+	private String special;
+
+	public Eal(String special) {
+		super();
+		this.special = "Reeleases  Electric Shock";
+	}
+    
+}

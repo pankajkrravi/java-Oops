@@ -1,0 +1,7 @@
+package com.goomo.Components;
+
+public class Processor {
+	private String brand;
+	private String series;
+	private String brand;
+}

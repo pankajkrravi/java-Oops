@@ -1,0 +1,18 @@
+package com.gomo.person;
+
+public abstract class Person implements IsAlive, LiveLife {
+
+	public void speak() {
+		System.out.println("Share ypur Thoughts !!!!");
+	}
+
+	public void breathe() {
+		System.out.println("Be alive ; remain living");
+	}
+
+	public void message() {
+		System.out.println("life is journey ; Keep moving");
+	}
+
+	public abstract void aet();
+}

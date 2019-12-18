@@ -1,0 +1,5 @@
+package com.gomo.person;
+
+public class Vegan extends Person{
+
+}

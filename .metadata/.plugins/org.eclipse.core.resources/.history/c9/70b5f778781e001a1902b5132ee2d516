@@ -1,0 +1,9 @@
+package com.gomo.person;
+
+public class NonVegan {
+	@Override
+	public void eat() {
+		System.out.println("Eats Non- vegan food");
+	
+	}
+}

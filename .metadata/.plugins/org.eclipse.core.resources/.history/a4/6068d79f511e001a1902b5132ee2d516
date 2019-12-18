@@ -1,0 +1,21 @@
+package inheritance;
+
+public class Animal {
+	protected float heightInFeet;
+	private float weightInKilos;
+	private String animalType;
+	private String bloodType;
+
+	public Animal() {
+		this.heightInFeet = 0;
+		this.weightInKilos = 0;
+		this.animalType = "unknown";
+		this.bloodType = "unknown";
+	}
+
+	public String ShowInfo() {
+		return "Animal [heightInFeet=" + heightInFeet + ", weightInKilos=" + weightInKilos + ", animalType="
+				+ animalType + ", bloodType=" + bloodType + "]";
+	}
+	
+}

@@ -1,0 +1,16 @@
+import com.goomo.notification.NotificationService;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class NotificationServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NotificationServiceApplication.class, args);
+		Test t=new Test();
+		t.setId(100);
+		t.setName("kumar");
+		System.out.println(t);
+	}
+
+}

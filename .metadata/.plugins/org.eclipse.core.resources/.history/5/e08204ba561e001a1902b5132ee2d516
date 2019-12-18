@@ -1,0 +1,10 @@
+
+public class Laptop {
+	private String screen;
+	private Processor processor;
+	private String ram;
+	private String hardDrive;
+	private GraphicCard graphiccard;
+	private String opticalDrive;
+	private String keyBoard;
+}

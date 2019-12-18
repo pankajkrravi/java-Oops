@@ -1,0 +1,7 @@
+package com.goomo;
+
+public class mainclass {
+   public static void main(String[] args) {
+	
+}
+}

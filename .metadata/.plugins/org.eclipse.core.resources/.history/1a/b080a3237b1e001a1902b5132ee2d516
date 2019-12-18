@@ -1,0 +1,8 @@
+package com.goomo.shop;
+
+public class Door {
+   private Lock lock;
+   class Lock{
+	   
+   }
+}

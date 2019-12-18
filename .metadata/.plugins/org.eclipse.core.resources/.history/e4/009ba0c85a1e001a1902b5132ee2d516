@@ -1,0 +1,34 @@
+import com.goomo.Components.GraphicCard;
+import com.goomo.Components.Processor;
+
+public class Laptop {
+	private float screen;
+	private Processor processor;
+	private String ram;
+	private String hardDrive;
+	private GraphicCard graphiccard;
+	private String opticalDrive;
+	private String keyBoard;
+
+	public Laptop() {
+		this.screen = 15.6f;
+		this.processor = new Processor();
+		this.ram = ram;
+		this.hardDrive = hardDrive;
+		this.graphiccard = graphiccard;
+		this.opticalDrive = opticalDrive;
+		this.keyBoard = keyBoard;
+	}
+
+	public Laptop(float screen, Processor processor, String ram, String hardDrive, GraphicCard graphiccard,
+			String opticalDrive, String keyBoard) {
+		this.screen = screen;
+		this.processor = processor;
+		this.ram = ram;
+		this.hardDrive = hardDrive;
+		this.graphiccard = graphiccard;
+		this.opticalDrive = opticalDrive;
+		this.keyBoard = keyBoard;
+	}
+
+}

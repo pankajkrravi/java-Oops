@@ -1,0 +1,39 @@
+package com.goomo.Components;
+
+public class Processor {
+	private String brand;
+	private String series;
+	private int generation;
+	private int cores;
+	private int threads;
+	private String cashMemory;
+	private String frequency;
+	private String minFrequency;
+	private String maxFrequency;
+
+	public Processor() {
+		this.brand = brand;
+		this.series = series;
+		this.generation = generation;
+		this.cores = cores;
+		this.threads = threads;
+		this.cashMemory = cashMemory;
+		this.frequency = frequency;
+		this.minFrequency = minFrequency;
+		this.maxFrequency = maxFrequency;
+	}
+
+	public Processor(String brand, String series, int generation, int cores, int threads, String cashMemory,
+			String frequency, String minFrequency, String maxFrequency) {
+		this.brand = brand;
+		this.series = series;
+		this.generation = generation;
+		this.cores = cores;
+		this.threads = threads;
+		this.cashMemory = cashMemory;
+		this.frequency = frequency;
+		this.minFrequency = minFrequency;
+		this.maxFrequency = maxFrequency;
+	}
+
+}

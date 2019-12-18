@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Fish extends Animal{
+	private boolean waterBorn;
+	private String has;
+	public Fish() {
+		this.livein = livein;
+		this.has = has;
+	}
+
+}

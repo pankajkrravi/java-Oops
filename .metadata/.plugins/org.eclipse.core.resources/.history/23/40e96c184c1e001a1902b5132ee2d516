@@ -1,0 +1,9 @@
+package inheritance;
+
+public class Birds extends Animal {
+	private boolean feather;
+             
+	public String fly() {
+		return "Birde Fly !!!";
+	}
+}

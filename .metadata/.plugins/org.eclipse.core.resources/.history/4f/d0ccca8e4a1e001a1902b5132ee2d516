@@ -1,0 +1,12 @@
+package inheritance;
+
+public class Eal extends Fish{
+	  private String ealType;
+	
+	public void showInfo()
+	{
+		System.out.println("Eal Info");
+	}
+
+
+}

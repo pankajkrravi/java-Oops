@@ -1,0 +1,25 @@
+package com.goomo;
+
+import java.util.Stack;
+
+import javax.swing.plaf.SliderUI;
+
+public class StackDemo {
+	public static void main(String[] args) {
+
+		Stack<Integer> stkElel = new Stack<Integer>();
+		stkElel.add(1);
+		stkElel.add(2);
+		stkElel.add(3);
+		stkElel.add(4);
+		stkElel.add(5);
+		stkElel.add(6);
+		stkElel.add(7);
+		stkElel.add(8);
+		stkElel.add(9);
+		stkElel.add(10);
+		for (int i = 0; i < args.length; i++) {
+			System.out.println(stkElel.get(i));
+		}
+	}
+}

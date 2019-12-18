@@ -1,0 +1,10 @@
+package com.goomo;
+
+import com.goomo.persion.Person;
+import com.goomo.persion.Vegan;
+
+public class MainClass {
+   public static void main(String[] args) {
+	Person persoV=new Vegan();
+}
+}

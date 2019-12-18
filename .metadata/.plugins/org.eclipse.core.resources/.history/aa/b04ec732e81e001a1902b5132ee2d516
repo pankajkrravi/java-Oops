@@ -1,0 +1,11 @@
+package com.goomo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AutoboxingDemo {
+   public static void main(String[] args) {
+	List<Integer> ele=new ArrayList<Integer>();
+	
+}
+}

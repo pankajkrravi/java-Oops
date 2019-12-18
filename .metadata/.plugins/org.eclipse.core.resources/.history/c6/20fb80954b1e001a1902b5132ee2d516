@@ -1,0 +1,12 @@
+package inheritance;
+
+public class Reptile extends Animal {
+	private String skin,agg;
+	private boolean backbone;
+	public Reptile() {
+this.skin="Dry Skin";
+this.agg="shoft shelled";
+this.backbon=true;
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.goomo.shop;
+
+public class Door {
+	private Lock lock;
+
+	public Door() {
+		lock = new Lock(true);
+	}
+	public void shopStatus()
+	{
+		
+	}
+
+	class Lock {
+		private boolean lock;
+
+		public Lock(boolean lock) {
+			this.lock = lock;
+		}
+
+		public boolean isLock() {
+			return lock;
+		}
+
+		public void setLock(boolean lock) {
+			this.lock = lock;
+		}
+
+	}
+}

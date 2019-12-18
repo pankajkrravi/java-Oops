@@ -1,0 +1,9 @@
+package com.gomo.person;
+
+public abstract class Person implements IsAlive,LiveLife{
+      
+	public void speak()
+	{
+		
+	}
+}

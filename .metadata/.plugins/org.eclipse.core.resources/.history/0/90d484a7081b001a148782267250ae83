@@ -1,0 +1,28 @@
+package com.goomo.notification.notificationservice;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+@ComponentScan
+@RestController
+public class NotificationController {
+	@Autowired
+	private NotificationService notificationService;
+
+	@RequestMapping("/sendEmail")
+	public String sendEmail() {
+		EmailUser user = new EmailUser();
+		user.setFirstName("pankaj");
+		user.setLastName("Kumar Ravi");
+		user.setEmailid("pk1478086@gmail.com");
+		try {
+			notificationService.sendEmail(user);
+		} catch (Exception e) {
+			System.out.println("Error occcured");
+			e.printStackTrace();
+		}
+
+		return "Email Send Successfully";
+	}
+}

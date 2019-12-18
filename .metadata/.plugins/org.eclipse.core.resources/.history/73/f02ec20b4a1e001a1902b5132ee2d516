@@ -1,0 +1,7 @@
+package inheritance;
+
+public class Reptile {
+   private String skin;
+   private String type;
+   
+}

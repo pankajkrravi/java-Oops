@@ -1,0 +1,10 @@
+
+public class MainClass {
+	public static void main(String[] args) {
+		/*
+		 * Laptop laptop=new Laptop();
+		 * System.out.println(laptop.getProcessor().getBrand());
+		 */
+		Laptop laptop=new Laptop(screen, processor, ram, hardDrive, graphiccard, opticalDrive, keyBoard)
+}
+}

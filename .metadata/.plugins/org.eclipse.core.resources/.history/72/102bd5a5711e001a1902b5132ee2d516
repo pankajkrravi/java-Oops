@@ -1,0 +1,15 @@
+package com.goomo;
+
+import com.goomo.phone.Iphone8;
+import com.goomo.phone.Oneplus5;
+import com.goomo.phone.Phone;
+
+public class mainclass {
+	public static void main(String[] args) {
+		Phone oneplus5 = new Oneplus5();
+		Phone phonei=new Iphone8();
+		System.out.println("Processor :: "+phonei.processor());
+		System.out.println("processor : " + oneplus5.processor());
+
+	}
+}

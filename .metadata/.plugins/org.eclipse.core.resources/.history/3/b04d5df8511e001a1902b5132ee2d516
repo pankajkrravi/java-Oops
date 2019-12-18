@@ -1,0 +1,17 @@
+package inheritance;
+
+public class Reptile extends Animal {
+	private String skin, agg;
+	private boolean backbone;
+
+	public Reptile() { // to initilise
+		heightInFeet = 5;
+		weightInKilos = 20;
+		animalType = "Raptile ";
+		bloodType = "Cold";
+		this.skin = "Dry Skin";
+		this.agg = "shoft shelled";
+		this.backbone = true;
+	}
+
+}

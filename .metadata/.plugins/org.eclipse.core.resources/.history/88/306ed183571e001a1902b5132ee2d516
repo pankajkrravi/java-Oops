@@ -1,0 +1,7 @@
+package com.goomo.Components;
+
+public class GraphicCard {
+	private String brand;
+	private String series;
+	private String memory;
+}

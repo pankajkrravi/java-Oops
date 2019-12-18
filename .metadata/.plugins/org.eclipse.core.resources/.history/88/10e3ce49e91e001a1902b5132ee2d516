@@ -1,0 +1,33 @@
+package com.goomo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class IntWrapper {
+	public int intValue;
+
+	public IntWrapper(int intVal) {
+		this.intValue = intVal;
+	}
+
+	public int getIntValue() {
+		return intValue;
+	}
+
+	public void setIntValue(int intValue) {
+		this.intValue = intValue;
+	}
+}
+
+public class AutoboxingDemo {
+	public static void main(String[] args) {
+		/*
+		 * List<Integer> ele = new ArrayList<Integer>(); ele.add(90);//Autoboxing
+		 * System.out.println(ele.get(0));
+		 */
+		
+		List<IntWrapper>   ele=new ArrayList<IntWrapper>();
+		ele.add(new IntWrapper(700));
+		System.out.println(ele.get(0).getIntValue());
+	}
+}

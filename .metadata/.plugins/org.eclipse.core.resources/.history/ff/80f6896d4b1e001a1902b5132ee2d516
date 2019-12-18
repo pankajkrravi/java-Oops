@@ -1,0 +1,8 @@
+package inheritance;
+
+public class Reptile extends Animal {
+	private String skin,agg;
+	private boolean backbown;
+	
+
+}

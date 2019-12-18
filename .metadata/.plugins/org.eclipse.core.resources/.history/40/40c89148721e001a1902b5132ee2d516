@@ -1,0 +1,5 @@
+package com.goomo.persion;
+
+public abstract class Person {
+
+}

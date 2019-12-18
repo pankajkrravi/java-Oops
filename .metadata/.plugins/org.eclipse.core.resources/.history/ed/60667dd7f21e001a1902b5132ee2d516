@@ -1,0 +1,17 @@
+package com.goomo;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class MainClass {
+	public static void main(String[] args) {
+		List<String> ele = new LinkedList<String>();
+		ele.add("US");
+		ele.add("IND");
+		ele.add("PAK");
+		ele.add("NEPAL");
+		ele.add("Bangala");
+		ele.add("Bhutan");
+
+	}
+}

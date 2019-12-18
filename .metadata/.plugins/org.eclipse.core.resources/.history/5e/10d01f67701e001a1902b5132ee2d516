@@ -1,0 +1,19 @@
+package com.goomo.phone;
+
+public class Oneplus5 implements Phone {
+	public String processor() {
+		return "SD-835 ";
+	}
+
+	@Override
+	public String OS() {
+		// TODO Auto-generated method stub
+		return "";
+	}
+
+	@Override
+	public int speedInGB() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

@@ -1,0 +1,49 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.0'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '1.0'
+
+mainClassName = "com.novy.email.microservice.api.EmailSenderApplication"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile 'org.mockito:mockito-all:1.9.5'
+    testCompile 'org.spockframework:spock-core:0.6-groovy-1.8-rc-1'
+    testCompile 'cglib:cglib-nodep:2.2'
+    testCompile 'org.objenesis:objenesis:2.1'
+    compile 'org.projectlombok:lombok:1.14.8'
+    compile 'com.google.guava:guava:18.0'
+    compile 'org.apache.commons:commons-lang3:3.3.1'
+    compile 'commons-validator:commons-validator:1.4.0'
+    compile 'org.codemonkey.simplejavamail:simple-java-mail:2.1'
+
+    compile 'io.dropwizard:dropwizard-core:0.8.0-rc2'
+
+}
+
+run {
+    args 'server', './src/config/emailservice.yml'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}

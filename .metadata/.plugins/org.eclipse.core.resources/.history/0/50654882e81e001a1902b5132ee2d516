@@ -1,0 +1,17 @@
+package com.goomo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+ class IntWrapper {
+	public IntWrapper() {
+	}
+}
+
+public class AutoboxingDemo {
+	public static void main(String[] args) {
+		List<Integer> ele = new ArrayList<Integer>();
+		ele.add(90);
+		System.out.println(ele.get(0));
+	}
+}

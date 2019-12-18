@@ -1,0 +1,9 @@
+package com.goomo;
+
+import java.util.ArrayList;
+
+public class MainDemo {
+   public static void main(String[] args) {
+	ArrayList<Integer> intele=new ArrayList<Integer>();
+}
+}

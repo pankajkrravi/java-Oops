@@ -1,0 +1,14 @@
+package com.goono;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+	public static void main(String[] args) {
+        LinkedList<String> countryele=new LinkedList<String>();
+           countryele.add("India");
+           countryele.add("");
+           countryele.add("");
+           countryele.add("");
+           countryele.add("");
+	}
+}

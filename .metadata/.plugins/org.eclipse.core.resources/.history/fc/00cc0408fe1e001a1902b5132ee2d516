@@ -1,0 +1,34 @@
+package com.goomo;
+
+import java.util.List;
+import java.util.ListIterator;
+
+class State implements Comparable<State> {
+	private String stateNames;
+
+	public State(String stateNames) {
+		this.stateNames = stateNames;
+	}
+
+	@Override
+	public int compareTo(State obj) {
+		if (stateNames.length() == obj.stateNames.length())
+			return 0;
+		else if (stateNames.length() < obj.stateNames.length())
+			return -1;
+		return 1;
+	}
+}
+
+public class MainClass {
+	public static void main(String[] args) {
+
+	}
+
+	public void printList(List<String> str) {
+		ListIterator<String> iterator = str.listIterator();
+		while (iterator.hasNext()) {
+			System.out.println("Element :" + iterator.next());
+		}
+	}
+}

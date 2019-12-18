@@ -1,0 +1,17 @@
+package inheritance;
+
+public class Eal extends Fish {
+	private String special;
+
+	public Eal(String special) {
+		super();
+		this.special = "Reeleases  Electric Shock";
+	}
+
+	@Override
+	public String Showinfo() {
+		return "Eal [special=" + special + ", heightInFeet=" + heightInFeet + ", weightInKilos=" + weightInKilos
+				+ ", animalType=" + animalType + ", bloodType=" + bloodType + "]";
+	}
+    
+}
